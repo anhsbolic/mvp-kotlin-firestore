@@ -1,19 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     tools:context="id.tutorialsajah.mvpkotlinfirestore.ui.activity.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-</android.support.constraint.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/setupProfileEtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="nama"/>
+
+            <EditText
+                android:id="@+id/setupProfileEtStoreName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="nama toko"/>
+
+            <EditText
+                android:id="@+id/setupProfileEtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="no hp"/>
+
+            <Button
+                android:id="@+id/setupProfileBtnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="simpan"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
