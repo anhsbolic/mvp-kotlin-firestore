@@ -1,7 +1,8 @@
-package id.tutorialsajah.mvpkotlinfirestore
+package id.tutorialsajah.mvpkotlinfirestore.ui.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import id.tutorialsajah.mvpkotlinfirestore.R
 
 class MainActivity : AppCompatActivity() {
 
