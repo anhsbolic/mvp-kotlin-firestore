@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context="id.tutorialsajah.mvpkotlinfirestore.ui.activity.MainActivity">
+    tools:context="id.tutorialsajah.mvpkotlinfirestore.view.activity.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"

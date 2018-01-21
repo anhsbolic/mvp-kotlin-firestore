@@ -1,4 +1,4 @@
-package id.tutorialsajah.mvpkotlinfirestore.ui.activity
+package id.tutorialsajah.mvpkotlinfirestore.view.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
