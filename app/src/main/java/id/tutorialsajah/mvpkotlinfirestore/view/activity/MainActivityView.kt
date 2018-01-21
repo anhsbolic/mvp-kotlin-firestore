@@ -1,7 +1,14 @@
 package id.tutorialsajah.mvpkotlinfirestore.view.activity
 
-/**
- * Created by anhar on 1/21/18.
- */
-class MainActivityView {
+import id.tutorialsajah.mvpkotlinfirestore.model.Seller
+
+interface MainActivityView {
+
+    fun setSellerData(seller: Seller)
+
+    fun showProgress()
+
+    fun hideProgress()
+
+    fun showSnackBarSuccess()
 }

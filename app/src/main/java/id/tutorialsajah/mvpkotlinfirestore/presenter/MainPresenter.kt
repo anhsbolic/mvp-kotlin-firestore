@@ -1,7 +1,11 @@
 package id.tutorialsajah.mvpkotlinfirestore.presenter
 
-/**
- * Created by anhar on 1/21/18.
- */
-class MainPresenter {
+interface MainPresenter {
+
+    fun onLoadData()
+
+    fun onButtonSaveClick()
+
+    fun onDestroy()
+
 }
